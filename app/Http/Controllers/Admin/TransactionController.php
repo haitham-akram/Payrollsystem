@@ -6,7 +6,7 @@ use App\models\Employee;
 use App\Mail\payment_mail;
 use App\models\Transaction;
 use Illuminate\Http\Request;
-use PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
